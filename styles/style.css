@@ -1,17 +1,18 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: OpenSans;
+    color: teal;
     margin: 0;
     padding: 0;
 }
 
 
 nav {
+    /* background-color: aqua; */
     padding: 10px;
     display: flex;
     align-items: flex-start;
-    height: 3vh;
+    height: 50px;
     width: 100vw;
-    background-color: aqua;
     align-items: stretch;
 }
 
@@ -25,14 +26,38 @@ nav > .left-aligned-items {
     margin-right: 10px;
 }
 
+nav > .left-aligned-items > * {
+    margin-right: 10px;
+}
+
+nav button {
+    border: none;
+    font-size: 20px;
+    background-color: white;
+}
+
 
 main {
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main > h1 {
+    text-align: center;
 }
 
 .intro-container {
+    /* background-color: lightblue; */
     display: flex;
-    background-color: lightblue;
     padding: 10px;
     align-items: center;
+    font-size: 40px;
+    font-weight: lighter;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+button:hover {
+    cursor: pointer;
 }
