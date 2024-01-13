@@ -57,6 +57,18 @@ main > h1 {
     gap: 20px;
 }
 
+.video-container {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100;
+    padding: 10px;
+}
+
+figcaption {
+    text-align: center;
+}
 
 button:hover {
     cursor: pointer;
